@@ -1,0 +1,45 @@
+.heder{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0e161a;
+}
+.heder1 a{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+   
+}
+.heder1 a:hover{
+    color: orange;
+}
+.heder1{
+    margin-top: 10px;
+}
+.logo{
+    margin-left: 40px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .heder{
+        display: block;
+        justify-content: center;
+        background-color: #0e161a;
+    }
+    .heder1 a{
+        color: white;
+        text-decoration: none;
+        padding-right: 10px;
+        font-weight: 600;
+        
+       
+    }
+    .heder1{
+        text-align: center;
+    }
+    .logo{
+        margin-left: 0px;
+        text-align: center;
+    }
+}
